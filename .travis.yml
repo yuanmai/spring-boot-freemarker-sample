@@ -1,4 +1,4 @@
 language: java
 
 install:
-  - "pip install -q behave"
+  - "sudo pip install -q behave"
