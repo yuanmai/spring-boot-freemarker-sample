@@ -4,4 +4,4 @@ install:
   - "sudo pip install -q behave selenium"
 
 script:
-  - mvn -q test integration-test -B
+  - mvn test integration-test -B
