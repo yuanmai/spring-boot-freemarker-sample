@@ -4,5 +4,6 @@ install:
   - "sudo pip install -q behave selenium"
 
 script:
+  - mvn test -B
   - python --version
   - behave
