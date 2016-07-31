@@ -5,5 +5,4 @@ install:
 
 script:
   - mvn test -B
-  - python --version
-  - behave
+  - mvn integration-test
