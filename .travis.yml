@@ -1,4 +1,8 @@
 language: java
 
 install:
-  - "sudo pip install -q behave"
+  - "sudo pip install -q behave selenium"
+
+script:
+  - python --version
+  - behave
